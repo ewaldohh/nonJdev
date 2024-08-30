@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebServiceProxy xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webserviceproxy">
+   <list n="CHILD_NODES">
+      <url path="SchedulerMainService.xml"/>
+      <url path="package-info.java"/>
+      <url path="InvalidFormatException_Exception.java"/>
+      <url path="SchedulerExportRequestWSResponse.java"/>
+      <url path="SchedulerExportRequestWS.java"/>
+      <url path="SchedulerTsOutWSResponse.java"/>
+      <url path="SchedulerTsInWSResponse.java"/>
+      <url path="SchedulerTsInWS.java"/>
+      <url path="SchedulerMainPortClient.java"/>
+      <url path="SchedulerMainService.java"/>
+      <url path="IOException_Exception.java"/>
+      <url path="SchedulerMain.java"/>
+      <url path="SchedulerRemoveTempFileWS.java"/>
+      <url path="ParserConfigurationException_Exception.java"/>
+      <url path="SAXException.java"/>
+      <url path="SAXException_Exception.java"/>
+      <url path="SchedulerRemoveTempFileWSResponse.java"/>
+      <url path="SchedulerMainAsyncHandler.java"/>
+      <url path="SQLException.java"/>
+      <url path="IOException.java"/>
+      <url path="ParseException.java"/>
+      <url path="ParserConfigurationException.java"/>
+      <url path="SQLException_Exception.java"/>
+      <url path="ObjectFactory.java"/>
+      <url path="InvalidFormatException.java"/>
+      <url path="ParseException_Exception.java"/>
+      <url path="SchedulerTsOutWS.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="MIME"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy"/>
+      <url n="ORACLE_WEBSERVICES_XML" path="SchedulerMainService.xml"/>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+         </hash>
+      </hash>
+      <value n="PROXY_ASYNC_METHODS" v="FOR_ALL"/>
+      <list n="PROXY_CLIENTS">
+         <url path="SchedulerMainPortClient.java"/>
+      </list>
+      <value n="PROXY_MAPPING_URL"/>
+      <hash n="PROXY_PORTS">
+         <hash n="SchedulerMainPort">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="ACCESSES_RPC_ENCODED" v="false"/>
+            <value n="CLASS_NAME" v="scheduler.ws.SchedulerMain"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="SchedulerMainPort"/>
+            <hash n="OPERATIONS">
+               <hash n="schedulerExportRequestWS">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="schedulerRemoveTempFileWS">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="schedulerTsInWS">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+               <hash n="schedulerTsOutWS">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS">
+               <hash n="WS_POLICY">
+                  <value n="addressing"/>
+                  <hash n="GLOBAL_CONFIG_PROPERTIES"/>
+                  <list n="management"/>
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.policy.PolicyClientModel"/>
+                  <value n="mtom"/>
+                  <hash n="POLICY_OVERRIDE_PROPERTIES"/>
+                  <list n="security"/>
+                  <list n="wsconfig"/>
+                  <value n="wsrm"/>
+               </hash>
+            </hash>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="idphmbpn-adet01" port="7002" path="/SchedulerWS-Scheduler-context-root/SchedulerMainPort"/>
+         </hash>
+      </hash>
+      <value n="PROXY_SERVICE_NAME" v="SchedulerMainService"/>
+      <value n="PROXY_SERVICE_NAMESPACE" v="http://ws.scheduler/"/>
+      <url n="PROXY_TARGET_PROJECT" path="../../../ViewController.jpr"/>
+      <url n="PROXY_WSDL_URL" protocol="http" host="idphmbpn-adet01" port="7002" path="/SchedulerWS-Scheduler-context-root/SchedulerMainPort" query="WSDL"/>
+      <hash n="REFERENCED_WEBSERVICE">
+         <list n="BD_">
+            <hash>
+               <value n="BOUND_PORT_TYPE" v="{http://ws.scheduler/}SchedulerMain"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPBinding"/>
+               <value n="NAME" v="{http://ws.scheduler/}SchedulerMainPortBinding"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BOUND_OPERATION" v="void.schedulerTsOutWS"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="void.schedulerTsInWS.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="void.schedulerExportRequestWS.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="BOUND_OPERATION" v="void.schedulerRemoveTempFileWS"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+         </list>
+         <list n="BINDING_FILES"/>
+         <value n="GUID" v="eba9c627-0168-1000-8136-0aed56503d27"/>
+         <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy$ProxyJavaWebService"/>
+         <list n="PO_">
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+               <value n="NAME" v="SchedulerMainPort"/>
+               <value n="PORT_BINDING_NAME" v="{http://ws.scheduler/}SchedulerMainPortBinding"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="void.schedulerTsOutWS"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="void.schedulerTsInWS.java.lang.String.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="void.schedulerExportRequestWS.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="void.schedulerRemoveTempFileWS"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="idphmbpn-adet01" port="7002" path="/SchedulerWS-Scheduler-context-root/SchedulerMainPort"/>
+            </hash>
+         </list>
+         <hash n="PROPERTY_GROUPS">
+            <hash n="WSDL_TO_JAVA_PROPERTIES">
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+            </hash>
+         </hash>
+         <list n="PT_">
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{http://ws.scheduler/}SchedulerMain"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="scheduler.ws.SchedulerMainImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="scheduler.ws.SchedulerMain"/>
+               <value n="PT_TOP_DOWN_GENERATED_SEI_NAME" v="scheduler.ws.SchedulerMain"/>
+            </hash>
+         </list>
+         <url n="TARGET_PROJECT" path="../../../ViewController.jpr"/>
+         <value n="WS_ORIG_GEN_DIRECTION" v="TOP_DOWN"/>
+         <value n="WS_TARGET_NAMESPACE" v="http://ws.scheduler/"/>
+         <value n="WS_URI" v="SchedulerMainService"/>
+         <url n="WS_WSDL_FILE" protocol="http" host="idphmbpn-adet01" port="7002" path="/SchedulerWS-Scheduler-context-root/SchedulerMainPort" query="WSDL"/>
+      </hash>
+      <value n="SERVICE_ASYNC" v="false"/>
+      <value n="WSDL_IS_LOCAL_COPY" v="false"/>
+   </hash>
+</jdevws:WebServiceProxy>
